@@ -1,0 +1,12 @@
+{
+   "content_scripts": [ {
+      "js": [ "jquery.min.js", "theroomquotes.js","theroom.js" ],
+      "matches": [ "http://www.youtube.com/*", "http://www.youtu.be/*", "https://www.youtube.com/*", "https://www.youtu.be/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Significantly improves YouTube comments by replacing them with random quotes from The Room.",
+   "homepage_url": "http://www.btylerparker.com",
+   "manifest_version": 2,
+   "name": "Random 'The Room' comment replacer for YouTube",
+   "version": "1.0"
+}
