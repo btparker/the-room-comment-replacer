@@ -15,11 +15,11 @@ function randomTheRoom() {
 }
 
 
-$('.Ct, p.ctx').not('.roomed').html(randomTheRoom);
+$('.Ct').not('.roomed').html(randomTheRoom);
 
 
 setInterval(function() {
 
-  $('.Ct, p.ctx').not('.roomed').html(randomTheRoom);
+  $('.Ct').not('.roomed').html(randomTheRoom);
 }, 100);
 
